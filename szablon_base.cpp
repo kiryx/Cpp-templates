@@ -29,6 +29,11 @@ typedef vector<string> VS;
 typedef vector<char> VC;
 
 #define FOR(x,b,e) for(int x=b; x<=(e);++x)
+#define fo(x,b,e) for(int x=b; x<=(e);++x)
+#define fi(n) for(int i=0;i<(n);++i)
+#define fj(n) for(int j=0;j<(n);++j)
+#define fk(n) for(int k=0;k<(n);++k)
+#define re(x,n) for(int x=0;x<(n);++x)
 #define FORD(x,b,e) for(int x=b; x>=(e);--x)
 #define REP(x,n) for(int x=0;x<(n);++x)
 #define VAR(v,n) __typeof(n) v=(n)
