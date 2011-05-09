@@ -18,16 +18,6 @@
 #include<numeric>
 using namespace std;
 
-typedef vector<int> VI;
-typedef vector< VI > VVI;
-typedef long long LL;
-const int INF = ~(1<<31);
-typedef pair<int, int> PII;
-typedef vector< PII > VPII;
-typedef vector< VPII > VVPII;
-typedef vector<string> VS;
-typedef vector<char> VC;
-
 #define FOR(x,b,e) for(int x=b; x<=(e);++x)
 #define fo(x,b,e) for(int x=b; x<=(e);++x)
 #define fi(n) for(int i=0;i<(n);++i)
@@ -45,6 +35,7 @@ typedef vector<char> VC;
 #define ND second
 #define MP make_pair
 
+typedef vector<string> VS;
 VS parse(string s)
 {
   string a;
@@ -55,6 +46,15 @@ VS parse(string s)
   if (!a.empty()) wyn.PB(a);
   return wyn;
 }
+
+typedef vector<int> VI;
+typedef vector< VI > VVI;
+typedef long long LL;
+const int INF = ~(1<<31);
+typedef pair<int, int> PII;
+typedef vector< PII > VPII;
+typedef vector< VPII > VVPII;
+typedef vector<char> VC;
 
 int main() {
  
