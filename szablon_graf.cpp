@@ -26,4 +26,4 @@ template <class V, class E> struct Graph {
 	}
 };
 struct Empty { };
-struct MyVert { int rev; };
+struct MyEdge { int rev; };
