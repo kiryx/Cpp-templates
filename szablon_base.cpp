@@ -17,19 +17,16 @@
 #include<cstring>
 #include<numeric>
 using namespace std;
+typedef int t_int;
+typedef int tl_int;
 
-#define FOR(x,b,e) for(int x=b; x<=(e);++x)
-#define fo(x,b,e) for(int x=b; x<=(e);++x)
-#define fi(n) for(int i=0;i<(n);++i)
-#define fj(n) for(int j=0;j<(n);++j)
-#define fk(n) for(int k=0;k<(n);++k)
-#define re(x,n) for(int x=0;x<(n);++x)
-#define FORD(x,b,e) for(int x=b; x>=(e);--x)
-#define REP(x,n) for(int x=0;x<(n);++x)
+#define FOR(x,b,e) for(tl_int x=b; x<=(e);++x)
+#define FORD(x,b,e) for(tl_int x=b; x>=(e);--x)
+#define REP(x,n) for(tl_int x=0;x<(n);++x)
 #define VAR(v,n) __typeof(n) v=(n)
 #define ALL(c) c.begin(),c.end()
-#define SIZE(x) (int)x.size()
-#define FORE(i,c) for(VAR(i,(c).begin());i!=(c).end();++i)
+#define SIZE(x) (tl_int)x.size()
+#define FOREACH(i,c) for(VAR(i,(c).begin());i!=(c).end();++i)
 #define PB push_back
 #define ST first
 #define ND second
@@ -47,14 +44,16 @@ VS parse(string s)
   return wyn;
 }
 
-typedef vector<int> VI;
+typedef vector<t_int> VI;
 typedef vector< VI > VVI;
 typedef long long LL;
-const int INF = ~(1<<31);
-typedef pair<int, int> PII;
+typedef vector<LL> VLL;
+const t_int INF = ~(1<<31);
+typedef pair<t_int, t_int> PII;
 typedef vector< PII > VPII;
 typedef vector< VPII > VVPII;
 typedef vector<char> VC;
+typedef vector<VC > VVC;
 
 int main() {
  
